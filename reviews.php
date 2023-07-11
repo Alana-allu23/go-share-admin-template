@@ -8,7 +8,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
-      <title>Pluto - Responsive Bootstrap Admin Panel Templates</title>
+      <title>GoShare</title>
       <meta name="keywords" content="">
       <meta name="description" content="">
       <meta name="author" content="">
@@ -51,9 +51,9 @@
                   <div class="sidebar_user_info">
                      <div class="icon_setting"></div>
                      <div class="user_profle_side">
-                        <div class="user_img"></div>
+                        <div class="user_img"><img class="img-responsive" src="images/logo/gocircle2.jpg" width="100" alt="#" /></div>
                         <div class="user_info">
-                        <h2 style="color: aliceblue;">ADMIN</h2>
+                           <h2 style="color: aliceblue;">ADMIN</h2>
                            <p><span class="online_animation"></span> Online</p>
                         </div>
                      </div>
@@ -106,7 +106,7 @@
                                  <li>
                                     <a class="dropdown-toggle" data-toggle="dropdown"> <span class="name_user"><h5>Settings</h5></span></a>
                                     <div class="dropdown-menu">
-                                       <a class="dropdown-item" href="adminprofile.php">My Profile</a>
+                                      
                                       
                                        <a class="dropdown-item" href="about.html">About</a>
                                        <a class="dropdown-item" href="index.html"><span>Log Out</span> <i class="fa fa-sign-out"></i></a>
@@ -137,7 +137,9 @@
                         <div class="col-lg-6">
                            <div class="white_shd full margin_bottom_30">
                               <div class="full graph_head">
-                                
+                                 <div class="heading1 margin_0">
+                                    <h2>APP RATING</h2>
+                                 </div>
                               </div>
                               <div class="map_section padding_infor_info">
                                  <canvas id="line_chart"></canvas>
@@ -147,7 +149,9 @@
                         <div class="col-lg-6">
                            <div class="white_shd full margin_bottom_30">
                               <div class="full graph_head">
-                                
+                                 <div class="heading1 margin_0">
+                                    <h2>APP REVIEW</h2>
+                                 </div>
                               </div>
                               <div class="map_section padding_infor_info">
                                  <canvas id="bar_chart"></canvas>
