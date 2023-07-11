@@ -37,86 +37,51 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
       <![endif]-->
    </head>
-   <body class="inner_page tables_page">
+   <body class="dashboard dashboard_1">
       <div class="full_container">
          <div class="inner_container">
             <!-- Sidebar  -->
             <nav id="sidebar">
-               <div class="sidebar_blog_1">
+              <div class="sidebar_blog_1">
                   <div class="sidebar-header">
                      <div class="logo_section">
-                        <a href="index.html"><img class="logo_icon img-responsive" src="images/logo/logo_icon.png" alt="#" /></a>
+                        <a href="index.html"></a>
                      </div>
                   </div>
                   <div class="sidebar_user_info">
                      <div class="icon_setting"></div>
                      <div class="user_profle_side">
-                        <div class="user_img"><img class="img-responsive" src="images/layout_img/user_img.jpg" alt="#" /></div>
+                        <div class="user_img"></div>
                         <div class="user_info">
-                           <h6>John David</h6>
+                           <h2 style="color: aliceblue;">ADMIN</h2>
                            <p><span class="online_animation"></span> Online</p>
                         </div>
                      </div>
                   </div>
                </div>
                <div class="sidebar_blog_2">
-                  <h4>General</h4>
+                  <h4>GO SHARE POOLING SERVICE</h4>
                   <ul class="list-unstyled components">
-                     <li class="active">
-                        <a href="#dashboard" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-dashboard yellow_color"></i> <span>Dashboard</span></a>
-                        <ul class="collapse list-unstyled" id="dashboard">
-                           <li>
-                              <a href="dashboard.html">> <span>Default Dashboard</span></a>
-                           </li>
-                           <li>
-                              <a href="dashboard_2.html">> <span>Dashboard style 2</span></a>
-                           </li>
-                        </ul>
-                     </li>
-                     <li><a href="widgets.html"><i class="fa fa-clock-o orange_color"></i> <span>Widgets</span></a></li>
                      <li>
-                        <a href="#element" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-diamond purple_color"></i> <span>Elements</span></a>
-                        <ul class="collapse list-unstyled" id="element">
-                           <li><a href="general_elements.html">> <span>General Elements</span></a></li>
-                           <li><a href="media_gallery.html">> <span>Media Gallery</span></a></li>
-                           <li><a href="icons.html">> <span>Icons</span></a></li>
-                           <li><a href="invoice.html">> <span>Invoice</span></a></li>
-                        </ul>
+                        <a href="dashboard.html" ><i class="fa fa-dashboard yellow_color"></i> <span>Dashboard</span></a>
+                        
                      </li>
-                     <li><a href="tables.html"><i class="fa fa-table purple_color2"></i> <span>Tables</span></a></li>
-                     <li>
-                        <a href="#apps" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-object-group blue2_color"></i> <span>Apps</span></a>
-                        <ul class="collapse list-unstyled" id="apps">
-                           <li><a href="email.html">> <span>Email</span></a></li>
-                           <li><a href="calendar.html">> <span>Calendar</span></a></li>
-                           <li><a href="media_gallery.html">> <span>Media Gallery</span></a></li>
-                        </ul>
-                     </li>
-                     <li><a href="price.html"><i class="fa fa-briefcase blue1_color"></i> <span>Pricing Tables</span></a></li>
-                     <li>
-                        <a href="contact.html">
-                        <i class="fa fa-paper-plane red_color"></i> <span>Contact</span></a>
-                     </li>
-                     <li class="active">
-                        <a href="#additional_page" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-clone yellow_color"></i> <span>Additional Pages</span></a>
-                        <ul class="collapse list-unstyled" id="additional_page">
-                           <li>
-                              <a href="profile.html">> <span>Profile</span></a>
-                           </li>
-                           <li>
-                              <a href="project.html">> <span>Projects</span></a>
-                           </li>
-                           <li>
-                              <a href="login.html">> <span>Login</span></a>
-                           </li>
-                           <li>
-                              <a href="404_error.html">> <span>404 Error</span></a>
-                           </li>
-                        </ul>
-                     </li>
-                     <li><a href="map.html"><i class="fa fa-map purple_color2"></i> <span>Map</span></a></li>
-                     <li><a href="charts.html"><i class="fa fa-bar-chart-o green_color"></i> <span>Charts</span></a></li>
-                     <li><a href="settings.html"><i class="fa fa-cog yellow_color"></i> <span>Settings</span></a></li>
+                     <li><a href="user.php"><i class="fa fa-user orange_color"></i> <span>USER  DETAILS</DETAILS> </span></a></li>
+                    
+                     <li><a href="notification.php"><i class="fa fa-bell purple_color2"></i> <span>NOTIFICATION</span></a></li>
+                    
+                     <li><a href="ads.php"><i class="fa fa-diamond blue1_color"></i> <span>MANAGE ADS</span></a></li>
+                     <li><a href="complaint1.php"><i class="fa fa-comments-o green_color"></i> <span>COMPLAINTS</span></a></li>
+
+
+
+
+
+
+                     
+                     <li><a href="reviews.php"><i class="fa fa-star-half-empty yellow_color"></i> <span>APP RATING & REVIWS</span></a></li>
+                     
+                    
                   </ul>
                </div>
             </nav>
@@ -128,24 +93,23 @@
                   <nav class="navbar navbar-expand-lg navbar-light">
                      <div class="full">
                         <button type="button" id="sidebarCollapse" class="sidebar_toggle"><i class="fa fa-bars"></i></button>
-                        <!-- <div class="logo_section">
-                           <a href="index.html"><img class="img-responsive" src="images/logo/logo.png" alt="#" /></a>
-                        </div> -->
+                        <div class="logo_section">
+                          
+                              <img class="img-responsive" src="images/logo/goshare.png" alt="#" width="130" />
+                           
+                        </div>
+                        
                         <div class="right_topbar">
                            <div class="icon_info">
-                              <ul>
-                                 <li><a href="#"><i class="fa fa-bell-o"></i><span class="badge">2</span></a></li>
-                                 <li><a href="#"><i class="fa fa-question-circle"></i></a></li>
-                                 <li><a href="#"><i class="fa fa-envelope-o"></i><span class="badge">3</span></a></li>
-                              </ul>
+                             
                               <ul class="user_profile_dd">
                                  <li>
-                                    <a class="dropdown-toggle" data-toggle="dropdown"><img class="img-responsive rounded-circle" src="images/layout_img/user_img.jpg" alt="#" /><span class="name_user">John David</span></a>
+                                    <a class="dropdown-toggle" data-toggle="dropdown"> <span class="name_user"><h5>Settings</h5></span></a>
                                     <div class="dropdown-menu">
-                                       <a class="dropdown-item" href="profile.html">My Profile</a>
-                                       <a class="dropdown-item" href="settings.html">Settings</a>
-                                       <a class="dropdown-item" href="help.html">Help</a>
-                                       <a class="dropdown-item" href="#"><span>Log Out</span> <i class="fa fa-sign-out"></i></a>
+                                       <a class="dropdown-item" href="adminprofile.php">My Profile</a>
+                                      
+                                       <a class="dropdown-item" href="about.html">About</a>
+                                       <a class="dropdown-item" href="index.html"><span>Log Out</span> <i class="fa fa-sign-out"></i></a>
                                     </div>
                                  </li>
                               </ul>
@@ -161,7 +125,9 @@
                      <div class="row column_title">
                         <div class="col-md-12">
                            <div class="page_title">
-                              <h2>Notifications</h2>
+                              <h2>Goods Movement Details</h2>
+                              <br>
+                              <div><a class="back-arrow" href="javascript:history.back()"> < back</a></div>
                            </div>
                         </div>
                      </div>
@@ -179,28 +145,57 @@
                                        <thead class="thead-dark">
                                           <tr>
                                              <th>#</th>
-                                             <th>Pool Type</th>
-                                             <th>User</th>
+                                             
+                                             <th>User Name</th>
                                              <th>Vehicle No.</th>
-                                             <th>Source</th>
-                                             <th>Destination</th>
+                                             <th>Pickup</th>
+                                             <th>Drop</th>
                                              <th>Date</th>
                                              <th>time</th>
-                                             <th>No. of seats</th>
+                                             <th>Quandity of Goods</th>
+                                             <th>Type of Goods</th>
                                           </tr>
                                        </thead>
                                        <tbody>
                                           <tr>
-                                             <td>1</td>
-                                             <td>car</td>
-                                             <td>Pitt</td>
-                                             <td>KL 53 4514</td>
+                                              <td>1</td>
+                                             <td>John</td>
+                                             <td>KL45221</td>
+                                             <td>ucharakadav</td>
+                                            
                                              <td>Pmna</td>
-                                             <td>Calicut</td>
+                                             
                                              <td>12/07/2023</td>
                                              <td>9 pm</td>
-                                             <td>5</td>
+                                             <td>55kg</td>
+                                             <td>Stationary</td>
                                           </tr>
+                                          <tr>
+                                             <td>1</td>
+                                            <td>John</td>
+                                            <td>KL45221</td>
+                                            <td>ucharakadav</td>
+                                           
+                                            <td>Pmna</td>
+                                            
+                                            <td>12/07/2023</td>
+                                            <td>9 pm</td>
+                                            <td>55kg</td>
+                                            <td>Stationary</td>
+                                         </tr>
+                                         <tr>
+                                          <td>1</td>
+                                         <td>John</td>
+                                         <td>KL45221</td>
+                                         <td>ucharakadav</td>
+                                        
+                                         <td>Pmna</td>
+                                         
+                                         <td>12/07/2023</td>
+                                         <td>9 pm</td>
+                                         <td>55kg</td>
+                                         <td>Stationary</td>
+                                      </tr>
                                        </tbody>
                                     </table>
                                  </div>

@@ -30,30 +30,28 @@
       <link rel="stylesheet" href="css/custom.css" />
       <!-- calendar file css -->
       <link rel="stylesheet" href="js/semantic.min.css" />
-      <!-- fancy box js -->
-      <link rel="stylesheet" href="css/jquery.fancybox.css" />
       <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
       <![endif]-->
    </head>
-   <body class="inner_page tables_page">
+   <body class="dashboard dashboard_1">
       <div class="full_container">
          <div class="inner_container">
             <!-- Sidebar  -->
             <nav id="sidebar">
-               <div class="sidebar_blog_1">
+              <div class="sidebar_blog_1">
                   <div class="sidebar-header">
                      <div class="logo_section">
-                        <a href="index.html"><img class="logo_icon img-responsive" src="images/logo/logo_icon.png" alt="#" /></a>
+                        <a href="index.html"></a>
                      </div>
                   </div>
                   <div class="sidebar_user_info">
                      <div class="icon_setting"></div>
                      <div class="user_profle_side">
-                        <div class="user_img"><img class="img-responsive" src="images/layout_img/user_img.jpg" alt="#" /></div>
+                        <div class="user_img"></div>
                         <div class="user_info">
-                           <h6>John David</h6>
+                           <h2 style="color: aliceblue;">ADMIN</h2>
                            <p><span class="online_animation"></span> Online</p>
                         </div>
                      </div>
@@ -62,8 +60,8 @@
                <div class="sidebar_blog_2">
                   <h4>GO SHARE POOLING SERVICE</h4>
                   <ul class="list-unstyled components">
-                     <li class="active">
-                        <a href="dashboard.html" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-dashboard yellow_color"></i> <span>Dashboard</span></a>
+                     <li>
+                        <a href="dashboard.html" ><i class="fa fa-dashboard yellow_color"></i> <span>Dashboard</span></a>
                         
                      </li>
                      <li><a href="user.php"><i class="fa fa-user orange_color"></i> <span>USER  DETAILS</DETAILS> </span></a></li>
@@ -72,6 +70,13 @@
                     
                      <li><a href="ads.php"><i class="fa fa-diamond blue1_color"></i> <span>MANAGE ADS</span></a></li>
                      <li><a href="complaint1.php"><i class="fa fa-comments-o green_color"></i> <span>COMPLAINTS</span></a></li>
+
+
+
+
+
+
+                     
                      <li><a href="reviews.php"><i class="fa fa-star-half-empty yellow_color"></i> <span>APP RATING & REVIWS</span></a></li>
                      
                     
@@ -110,7 +115,7 @@
                         </div>
                      </div>
                   </nav>
-               </div>
+               </div>s
                <!-- end topbar -->
                <!-- dashboard inner -->
                <div class="midde_cont">
@@ -118,84 +123,83 @@
                      <div class="row column_title">
                         <div class="col-md-12">
                            <div class="page_title">
-                              <h2>Complaints </h2>
-                              <br>
-                              <div><a class="back-arrow" href="javascript:history.back()"> < back</a></div>
+                              <h2>Profile</h2>
                            </div>
                         </div>
                      </div>
                      <!-- row -->
-                     <div class="row">
-                        <!-- table section -->
-                        
-                        <!-- table section -->
-                        <div class="col-md-12">
+                     <div class="row column1">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-8">
                            <div class="white_shd full margin_bottom_30">
-                              
-                              <div class="table_section padding_infor_info">
-                                 <div class="table-responsive-sm">
-                                    <table class="table">
-                                       <thead class="thead-dark">
-                                          <tr>
-                                             <th>#</th>
-                                             <th>Pool Type</th>
-                                             <th>User</th>
-                                             <th>Vehicle No.</th>
-                                             <th>Source</th>
-                                             <th>Destination</th>
-                                             <th>Date</th>
-                                             <th>time</th>
-                                             <th>No. of seats</th>
-                                          </tr>
-                                       </thead>
-                                       <tbody>
-                                          <tr>
-                                             <td>1</td>
-                                             <td>car</td>
-                                             <td>Pitt</td>
-                                             <td>KL 53 4514</td>
-                                             <td>Pmna</td>
-                                             <td>Calicut</td>
-                                             <td>12/07/2023</td>
-                                             <td>9 pm</td>
-                                             <td>5</td>
-                                          </tr>
-                                       </tbody>
-                                    </table>
+                              <div class="full graph_head">
+                                 <div class="heading1 margin_0">
+                                    <h1>Admin profile</h1>
+                                    <br>
+                              <div><a class="back-arrow" href="javascript:history.back()"> < back</a></div>
+                                 </div>
+                              </div>
+                              <div class="full price_table padding_infor_info">
+                                 <div class="row">
+                                    <!-- user profile section --> 
+                                    <!-- profile image -->
+                                    <div class="col-lg-12">
+                                       <div class="full dis_flex center_text">
+                                          <div class="profile_img"><img width="180" class="rounded-circle" src="images/layout_img/user_img.jpg" alt="#" /></div>
+                                          <div class="profile_contant">
+                                             <div class="contact_inner">
+                                                <h3>John Smith</h3>
+                                                <p><strong>About: </strong>Admin of goshare Service</p>
+                                                <ul class="list-unstyled">
+                                                   <li><i class="fa fa-envelope-o"></i> : john@gmail.com</li>
+                                                   <li><i class="fa fa-phone"></i> : 987 654 3210</li>
+                                                </ul>
+                                             </div>
+                                             <div class="user_progress_bar">
+                                                <div class="progress_bar">
+                                                   <!-- Skill Bars -->
+                                                   <span class="skill" style="width:85%;">Web Applications <span class="info_valume">85%</span></span>                   
+                                                   <div class="progress skill-bar ">
+                                                      <div class="progress-bar progress-bar-animated progress-bar-striped" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
+                                                      </div>
+                                                   </div>
+                                                   <span class="skill" style="width:78%;">Website Design <span class="info_valume">78%</span></span>   
+                                                   <div class="progress skill-bar">
+                                                      <div class="progress-bar progress-bar-animated progress-bar-striped" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100" style="width: 78%;">
+                                                      </div>
+                                                   </div>
+                                                   <span class="skill" style="width:47%;">Automation & Testing <span class="info_valume">47%</span></span>
+                                                   <div class="progress skill-bar">
+                                                      <div class="progress-bar progress-bar-animated progress-bar-striped" role="progressbar" aria-valuenow="54" aria-valuemin="0" aria-valuemax="100" style="width: 54%;">
+                                                      </div>
+                                                   </div>
+                                                   <span class="skill" style="width:65%;">UI / UX <span class="info_valume">65%</span></span>
+                                                   <div class="progress skill-bar">
+                                                      <div class="progress-bar progress-bar-animated progress-bar-striped" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%;">
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <!-- profile contant section -->
+                                      
+                                       <!-- end user profile section -->
+                                    </div>
                                  </div>
                               </div>
                            </div>
+                           <div class="col-md-2"></div>
                         </div>
+                        <!-- end row -->
                      </div>
+                     <!-- footer -->
+                    
                   </div>
-                  <!-- footer -->
-                
-               </div>
-               <!-- end dashboard inner -->
-            </div>
-         </div>
-         <!-- model popup -->
-         <!-- The Modal -->
-         <div class="modal fade" id="myModal">
-            <div class="modal-dialog">
-               <div class="modal-content">
-                  <!-- Modal Header -->
-                  <div class="modal-header">
-                     <h4 class="modal-title">Modal Heading</h4>
-                     <button type="button" class="close" data-dismiss="modal">&times;</button>
-                  </div>
-                  <!-- Modal body -->
-                  <div class="modal-body">
-                     Modal body..
-                  </div>
-                  <!-- Modal footer -->
-                  <div class="modal-footer">
-                     <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                  </div>
+                  <!-- end dashboard inner -->
                </div>
             </div>
          </div>
-         <!-- end model popup -->
       </div>
       <!-- jQuery -->
       <script src="js/jquery.min.js"></script>
@@ -217,9 +221,6 @@
       <script>
          var ps = new PerfectScrollbar('#sidebar');
       </script>
-      <!-- fancy box js -->
-      <script src="js/jquery-3.3.1.min.js"></script>
-      <script src="js/jquery.fancybox.min.js"></script>
       <!-- custom js -->
       <script src="js/custom.js"></script>
       <!-- calendar file css -->    

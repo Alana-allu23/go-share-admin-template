@@ -37,23 +37,23 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
       <![endif]-->
    </head>
-   <body class="inner_page tables_page">
+   <body class="dashboard dashboard_1">
       <div class="full_container">
          <div class="inner_container">
             <!-- Sidebar  -->
-            <nav id="sidebar">
-               <div class="sidebar_blog_1">
+            <nav id="sidebar"><div class=""></div>
+              <div class="sidebar_blog_1">
                   <div class="sidebar-header">
                      <div class="logo_section">
-                        <a href="index.html"><img class="logo_icon img-responsive" src="images/logo/logo_icon.png" alt="#" /></a>
+                        <a href="index.html"></a>
                      </div>
                   </div>
                   <div class="sidebar_user_info">
                      <div class="icon_setting"></div>
                      <div class="user_profle_side">
-                        <div class="user_img"><img class="img-responsive" src="images/layout_img/user_img.jpg" alt="#" /></div>
+                        <div class="user_img"></div>
                         <div class="user_info">
-                           <h6>John David</h6>
+                        <h2 style="color: aliceblue;">ADMIN</h2>
                            <p><span class="online_animation"></span> Online</p>
                         </div>
                      </div>
@@ -62,8 +62,8 @@
                <div class="sidebar_blog_2">
                   <h4>GO SHARE POOLING SERVICE</h4>
                   <ul class="list-unstyled components">
-                     <li class="active">
-                        <a href="dashboard.html" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-dashboard yellow_color"></i> <span>Dashboard</span></a>
+                     <li>
+                        <a href="dashboard.html" ><i class="fa fa-dashboard yellow_color"></i> <span>Dashboard</span></a>
                         
                      </li>
                      <li><a href="user.php"><i class="fa fa-user orange_color"></i> <span>USER  DETAILS</DETAILS> </span></a></li>
@@ -72,6 +72,13 @@
                     
                      <li><a href="ads.php"><i class="fa fa-diamond blue1_color"></i> <span>MANAGE ADS</span></a></li>
                      <li><a href="complaint1.php"><i class="fa fa-comments-o green_color"></i> <span>COMPLAINTS</span></a></li>
+
+
+
+
+
+
+                     
                      <li><a href="reviews.php"><i class="fa fa-star-half-empty yellow_color"></i> <span>APP RATING & REVIWS</span></a></li>
                      
                     
@@ -118,62 +125,37 @@
                      <div class="row column_title">
                         <div class="col-md-12">
                            <div class="page_title">
-                              <h2>Complaints </h2>
+                              <h2>APP RATING </h2>
                               <br>
+                              
                               <div><a class="back-arrow" href="javascript:history.back()"> < back</a></div>
                            </div>
                         </div>
                      </div>
                      <!-- row -->
-                     <div class="row">
-                        <!-- table section -->
-                        
-                        <!-- table section -->
-                        <div class="col-md-12">
+                     <div class="row column1">
+                        <div class="col-lg-6">
                            <div class="white_shd full margin_bottom_30">
-                              
-                              <div class="table_section padding_infor_info">
-                                 <div class="table-responsive-sm">
-                                    <table class="table">
-                                       <thead class="thead-dark">
-                                          <tr>
-                                             <th>#</th>
-                                             <th>Pool Type</th>
-                                             <th>User</th>
-                                             <th>Vehicle No.</th>
-                                             <th>Source</th>
-                                             <th>Destination</th>
-                                             <th>Date</th>
-                                             <th>time</th>
-                                             <th>No. of seats</th>
-                                          </tr>
-                                       </thead>
-                                       <tbody>
-                                          <tr>
-                                             <td>1</td>
-                                             <td>car</td>
-                                             <td>Pitt</td>
-                                             <td>KL 53 4514</td>
-                                             <td>Pmna</td>
-                                             <td>Calicut</td>
-                                             <td>12/07/2023</td>
-                                             <td>9 pm</td>
-                                             <td>5</td>
-                                          </tr>
-                                       </tbody>
-                                    </table>
-                                 </div>
+                              <div class="full graph_head">
+                                
+                              </div>
+                              <div class="map_section padding_infor_info">
+                                 <canvas id="line_chart"></canvas>
                               </div>
                            </div>
                         </div>
-                     </div>
-                  </div>
-                  <!-- footer -->
-                
-               </div>
-               <!-- end dashboard inner -->
-            </div>
-         </div>
+                        <div class="col-lg-6">
+                           <div class="white_shd full margin_bottom_30">
+                              <div class="full graph_head">
+                                
+                              </div>
+                              <div class="map_section padding_infor_info">
+                                 <canvas id="bar_chart"></canvas>
+                              </div>
+                           </div>
+                        </div>
+             
+                        
          <!-- model popup -->
          <!-- The Modal -->
          <div class="modal fade" id="myModal">

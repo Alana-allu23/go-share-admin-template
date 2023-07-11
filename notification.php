@@ -30,8 +30,6 @@
       <link rel="stylesheet" href="css/custom.css" />
       <!-- calendar file css -->
       <link rel="stylesheet" href="js/semantic.min.css" />
-      <!-- fancy box js -->
-      <link rel="stylesheet" href="css/jquery.fancybox.css" />
       <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -51,9 +49,9 @@
                   <div class="sidebar_user_info">
                      <div class="icon_setting"></div>
                      <div class="user_profle_side">
-                        <div class="user_img"><img class="img-responsive" src="images/layout_img/user_img.jpg" alt="#" /></div>
+                        <div class="user_img"></div>
                         <div class="user_info">
-                           <h6>ALEXANDER</h6>
+                           <h2 style="color: aliceblue;">ADMIN</h2>
                            <p><span class="online_animation"></span> Online</p>
                         </div>
                      </div>
@@ -62,17 +60,24 @@
                <div class="sidebar_blog_2">
                   <h4>GO SHARE POOLING SERVICE</h4>
                   <ul class="list-unstyled components">
-                     <li class="active">
-                        <a href="#dashboard" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-dashboard yellow_color"></i> <span>Dashboard</span></a>
+                     <li>
+                        <a href="dashboard.html" ><i class="fa fa-dashboard yellow_color"></i> <span>Dashboard</span></a>
                         
                      </li>
                      <li><a href="user.php"><i class="fa fa-user orange_color"></i> <span>USER  DETAILS</DETAILS> </span></a></li>
                     
-                     <li><a href="notification.html"><i class="fa fa-bell purple_color2"></i> <span>NOTIFICATION</span></a></li>
+                     <li><a href="notification.php"><i class="fa fa-bell purple_color2"></i> <span>NOTIFICATION</span></a></li>
                     
                      <li><a href="ads.php"><i class="fa fa-diamond blue1_color"></i> <span>MANAGE ADS</span></a></li>
-                     <li><a href="notification.html"><i class="fa fa-comments-o green_color"></i> <span>COMPLAINTS</span></a></li>
-                     <li><a href="notification.html"><i class="fa fa-star-half-empty yellow_color"></i> <span>APP RATING & REVIWS</span></a></li>
+                     <li><a href="complaint1.php"><i class="fa fa-comments-o green_color"></i> <span>COMPLAINTS</span></a></li>
+
+
+
+
+
+
+                     
+                     <li><a href="reviews.php"><i class="fa fa-star-half-empty yellow_color"></i> <span>APP RATING & REVIWS</span></a></li>
                      
                     
                   </ul>
@@ -97,11 +102,11 @@
                              
                               <ul class="user_profile_dd">
                                  <li>
-                                    <a class="dropdown-toggle" data-toggle="dropdown"><img class="img-responsive rounded-circle" src="images/layout_img/user_img.jpg" alt="#" /><span class="name_user">John David</span></a>
+                                    <a class="dropdown-toggle" data-toggle="dropdown"> <span class="name_user"><h5>Settings</h5></span></a>
                                     <div class="dropdown-menu">
-                                       <a class="dropdown-item" href="profile.html">My Profile</a>
-                                       <a class="dropdown-item" href="settings.html">Settings</a>
-                                       <a class="dropdown-item" href="help.html">Help</a>
+                                       <a class="dropdown-item" href="adminprofile.php">My Profile</a>
+                                      
+                                       <a class="dropdown-item" href="about.html">About</a>
                                        <a class="dropdown-item" href="index.html"><span>Log Out</span> <i class="fa fa-sign-out"></i></a>
                                     </div>
                                  </li>
@@ -118,113 +123,95 @@
                      <div class="row column_title">
                         <div class="col-md-12">
                            <div class="page_title">
-                              <h2>Goods Movement Details</h2>
+                              <h2>Notification</h2>
                               <br>
                               <div><a class="back-arrow" href="javascript:history.back()"> < back</a></div>
                            </div>
                         </div>
                      </div>
                      <!-- row -->
-                     <div class="row">
-                        <!-- table section -->
-                        
-                        <!-- table section -->
+                    
+                     <!-- end row -->
+                     <!-- row -->
+                     <!-- end row -->
+                     <!-- row -->
+                    
+                     <!-- end row -->
+                     <div class="row column4 graph">
                         <div class="col-md-12">
                            <div class="white_shd full margin_bottom_30">
-                              
-                              <div class="table_section padding_infor_info">
-                                 <div class="table-responsive-sm">
-                                    <table class="table">
-                                       <thead class="thead-dark">
-                                          <tr>
-                                             <th>#</th>
-                                             
-                                             <th>User Name</th>
-                                             <th>Vehicle No.</th>
-                                             <th>Pickup</th>
-                                             <th>Drop</th>
-                                             <th>Date</th>
-                                             <th>time</th>
-                                             <th>Quandity of Goods</th>
-                                             <th>Type of Goods</th>
-                                          </tr>
-                                       </thead>
-                                       <tbody>
-                                          <tr>
-                                              <td>1</td>
-                                             <td>John</td>
-                                             <td>KL45221</td>
-                                             <td>ucharakadav</td>
-                                            
-                                             <td>Pmna</td>
-                                             
-                                             <td>12/07/2023</td>
-                                             <td>9 pm</td>
-                                             <td>55kg</td>
-                                             <td>Stationary</td>
-                                          </tr>
-                                          <tr>
-                                             <td>1</td>
-                                            <td>John</td>
-                                            <td>KL45221</td>
-                                            <td>ucharakadav</td>
-                                           
-                                            <td>Pmna</td>
-                                            
-                                            <td>12/07/2023</td>
-                                            <td>9 pm</td>
-                                            <td>55kg</td>
-                                            <td>Stationary</td>
-                                         </tr>
-                                         <tr>
-                                          <td>1</td>
-                                         <td>John</td>
-                                         <td>KL45221</td>
-                                         <td>ucharakadav</td>
-                                        
-                                         <td>Pmna</td>
-                                         
-                                         <td>12/07/2023</td>
-                                         <td>9 pm</td>
-                                         <td>55kg</td>
-                                         <td>Stationary</td>
-                                      </tr>
-                                       </tbody>
-                                    </table>
+                             
+                              <div class="full progress_bar_inner">
+                                 <div class="row">
+                                    <div class="col-md-12">
+                                       <div class="msg_section">
+                                          <div class="msg_list_main">
+                                             <ul class="msg_list">
+                                                <li>
+                                                   <!-- <span><img src="images/layout_img/msg2.png" class="img-responsive" alt="#" /></span> -->
+                                                   <span> <div class="couter_icon">
+                                                    <div> 
+                                                       <i class="fa fa-user blue1_color"></i>
+                                                    </div>
+                                                 </div></span>
+                                                   <span>
+                                                   <span class="name_user">John Smith</span>
+                                                   <span class="msg_user">Sed ut perspiciatis unde omnisfkgl erkjferre frfrf kf rfrkfrlf rkfkfslfrskfsklsfs slrfk sfkj rsmsj sfskf rjf srmfkf k sfsksk kr fsmfskrfsjrmn ksgrgm rg.</span>
+                                                   <span class="time_ago">12 min ago</span>
+                                                   </span>
+                                                </li>
+                                                <li>
+                                                    <span> <div class="couter_icon">
+                                                        <div> 
+                                                           <i class="fa fa-user blue1_color"></i>
+                                                        </div>
+                                                     </div></span>                                                   <span>
+                                                   <span class="name_user">John Smith</span>
+                                                   <span class="msg_user">On the other hand, we denounce.</span>
+                                                   <span class="time_ago">12 min ago</span>
+                                                   </span>
+                                                </li>
+                                                <li>
+                                                    <span> <div class="couter_icon">
+                                                        <div> 
+                                                           <i class="fa fa-user blue1_color"></i>
+                                                        </div>
+                                                     </div></span>                                                   <span>
+                                                   <span class="name_user">John Smith</span>
+                                                   <span class="msg_user">Sed ut perspiciatis unde omnis.</span>
+                                                   <span class="time_ago">12 min ago</span>
+                                                   </span>
+                                                </li>
+                                                <li>
+                                                    <span> <div class="couter_icon">
+                                                        <div> 
+                                                           <i class="fa fa-user blue1_color"></i>
+                                                        </div>
+                                                     </div></span>                                                   <span>
+                                                   <span class="name_user">John Smith</span>
+                                                   <span class="msg_user">On the other hand, we denounce.</span>
+                                                   <span class="time_ago">12 min ago</span>
+                                                   </span>
+                                                </li>
+                                             </ul>
+                                          </div>
+                                       </div>
+                                    </div>
                                  </div>
                               </div>
                            </div>
                         </div>
+                       
+                      
+                       
                      </div>
                   </div>
+
                   <!-- footer -->
-                
-               </div>
+                 
                <!-- end dashboard inner -->
             </div>
          </div>
-         <!-- model popup -->
-         <!-- The Modal -->
-         <div class="modal fade" id="myModal">
-            <div class="modal-dialog">
-               <div class="modal-content">
-                  <!-- Modal Header -->
-                  <div class="modal-header">
-                     <h4 class="modal-title">Modal Heading</h4>
-                     <button type="button" class="close" data-dismiss="modal">&times;</button>
-                  </div>
-                  <!-- Modal body -->
-                  <div class="modal-body">
-                     Modal body..
-                  </div>
-                  <!-- Modal footer -->
-                  <div class="modal-footer">
-                     <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <!-- end model popup -->
       </div>
       <!-- jQuery -->
       <script src="js/jquery.min.js"></script>
@@ -246,12 +233,10 @@
       <script>
          var ps = new PerfectScrollbar('#sidebar');
       </script>
-      <!-- fancy box js -->
-      <script src="js/jquery-3.3.1.min.js"></script>
-      <script src="js/jquery.fancybox.min.js"></script>
       <!-- custom js -->
       <script src="js/custom.js"></script>
       <!-- calendar file css -->    
       <script src="js/semantic.min.js"></script>
+      <script></script>
    </body>
 </html>
